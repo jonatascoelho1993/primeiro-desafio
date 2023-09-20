@@ -15,7 +15,7 @@ public class SwaggerConfig {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("your.package.name")) // Replace with your package name
+                .apis(RequestHandlerSelectors.basePackage("br.com.ada.cielo.primeirodesafio")) // Replace with your package name
                 .paths(PathSelectors.any())
                 .build();
     }
